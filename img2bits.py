@@ -1,4 +1,4 @@
-#!/opt/local/bin/python2.5
+#!/usr/bin/python
 
 import Image, sys, os.path, shutil
  
