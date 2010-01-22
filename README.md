@@ -1,7 +1,7 @@
 USAGE
 _____
 
-![schema](http://github.com/creaven/Louper/raw/master/schema.png)
+![schema](http://github.com/creaven/image-ready/raw/master/schema.png)
 
 	python img2bits.py image.png result  x1 y1 x2 y2
 	
