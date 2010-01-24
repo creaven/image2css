@@ -27,7 +27,9 @@ if(isset($_FILES['image']['name'])){
 	echo "You need to select a file.  Please try again.";
 	exit();
 }
-
+echo getcwd();
+echo '<br>';
+echo $result;
 $bits = explode('.', $name);
 $name = $bits[0];
 $ext = $bits[1];

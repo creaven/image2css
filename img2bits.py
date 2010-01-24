@@ -18,8 +18,7 @@ if len(args) == 6 or len(args) == 7:
 
 if len(args) == 5 or len(args) == 7:
 	result_dir = args[-1]
-
-if not result_dir:
+else:
 	result_dir = os.path.dirname(src) if os.path.isabs(src) else os.path.join('.', os.path.dirname(src))
 
 img_name, img_type = os.path.basename(src).split('.')
